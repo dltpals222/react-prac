@@ -1,5 +1,5 @@
-const MyComponent = () => {
-  return <div>나의 (번역체) 새롭고 멋진 컴포넌트...... ? (맞나?) </div>;
+const MyComponent = (props) => {
+  return <div>안녕 만나서 반가워 내 이름은 {props.name} 이야!</div>;
 };
 
 export default MyComponent;
