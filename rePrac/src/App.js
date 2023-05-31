@@ -1,21 +1,8 @@
-import React from "react";
+import "./App.css"; /* import 하지 않으면 적용 안됨 */
 
 function App() {
   const name = "리액트";
-
-  return (
-    <div
-      style={{
-        backgroundColor: "black",
-        color: "aqua",
-        fontSize: "48px",
-        fontWeight: "bold",
-        padding: 16, // 단위 생략시 px로 자동 지정됨
-      }}
-    >
-      {name}
-    </div>
-  );
-}
+  return <div className="react">{name}</div>;
+} /* 원래 HTML은 class 가 맞지만 리액트에서는 className이 맞다 */
 
 export default App;
