@@ -1,15 +1,10 @@
-import "./App.css"; /* import 하지 않으면 적용 안됨 */
+const { Component } = require("react");
 
-function App() {
-  const name = "리액트";
-  return (
-    <>
-      <div className="react">{name}</div>
-      //이런 주석은 사용이 안된다. /* 이런 주석은 사용이 안된다. */
-      {/* 이런 주석을 사용해야 된다. */}
-      <input />
-    </>
-  );
-} /* 원래 HTML은 class 가 맞지만 리액트에서는 className이 맞다 */
+class App extends Component {
+  render() {
+    const name = "react";
+    return <div className="react">{name}</div>;
+  }
+}
 
 export default App;
