@@ -1,13 +1,8 @@
 import React, { Fragment } from "react";
 
 function App() {
-  const name = "리액트아님!";
-  return (
-    <div>
-      <h1>{name} 안녕!</h1>
-      <h2>잘 작동하니?</h2>
-    </div>
-  );
+  const name = "리액트";
+  return <div>{name === "리액트" ? <h1>리액트 입니다! 진짜?</h1> : <h2>리액트 아닙니다!</h2>}</div>;
 }
 
 export default App;
