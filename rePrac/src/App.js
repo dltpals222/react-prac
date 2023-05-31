@@ -5,6 +5,8 @@ function App() {
   return (
     <>
       <div className="react">{name}</div>
+      //이런 주석은 사용이 안된다. /* 이런 주석은 사용이 안된다. */
+      {/* 이런 주석을 사용해야 된다. */}
       <input />
     </>
   );
