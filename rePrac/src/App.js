@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="react">{name}</div>
-      <input></input>
+      <input />
     </>
   );
 } /* 원래 HTML은 class 가 맞지만 리액트에서는 className이 맞다 */
