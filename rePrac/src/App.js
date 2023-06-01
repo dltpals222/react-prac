@@ -1,8 +1,11 @@
-import "./App.css";
-import MyComponent from "./myComponent";
+import MyComponent from "./App.tsx";
 
-function App() {
-  return <MyComponent favoriteNumber={10}>react dev env</MyComponent>;
-} /* 원래 HTML은 class 가 맞지만 리액트에서는 className이 맞다 */
+const App = () => {
+  return (
+    <MyComponent name={1} favoriteNumber={"aa"}>
+      이거시 마이 컴포넌트 내용임
+    </MyComponent>
+  );
+};
 
 export default App;
