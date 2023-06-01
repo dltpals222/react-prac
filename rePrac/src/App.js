@@ -1,4 +1,4 @@
-import "./App.css"; /* import 하지 않으면 적용 안됨 */
+import "./App.css";
 
 function App() {
   const name = "리액트";
