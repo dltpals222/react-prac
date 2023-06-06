@@ -1,8 +1,0 @@
-.react {
-  /* css 를 활용한 스타일 속성 */
-  background-color: aqua;
-  color: black;
-  font-size: 48px;
-  font-weight: bold;
-  padding: 16px; /* 단위 생략시 적용 안됨*/
-}
