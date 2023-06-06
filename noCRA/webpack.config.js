@@ -13,10 +13,10 @@ const stylesHandler = "style-loader";
 const config = {
   devServer: {
     historyApiFallback: true,
-    inline: true,
+    // inline: true,
     port: 3000,
     hot: true,
-    publicPath: "/",
+    // publicPath: "/",
   },
   entry: path.resolve(__dirname, "develop", "router.tsx"),
   mode: isProduction ? "production" : "development",
@@ -51,7 +51,7 @@ const config = {
     ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".jsx", "js"],
+    extensions: [".tsx", ".ts", ".jsx", ".js"],
   },
   optimization: {
     minimizer: [
